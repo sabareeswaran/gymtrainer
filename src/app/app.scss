@@ -1,5 +1,29 @@
 // http://ionicframework.com/docs/theming/
+@font-face{
+    font-family: Quicksand;
+    src: url('../assets/fonts/quciksand.woff2') format('woff2');
+    }
+     
+    *{
+    font-family: Quicksand;
+    }
+.tabbar a[aria-selected=true] {
+    border-bottom: 3px;
+    border-style: solid;    
+}
 
+.tabbar a[aria-selected=false] {
+    border-bottom: 3px;
+    border-style: solid;  
+    border-color: transparent;  
+    
+}
+.tabbar a[aria-selected=false] span{
+    font-size:12px; 
+}
+.tabbar a[aria-selected=true] span{
+    font-size:12px; 
+}
 
 // App Global Sass
 // --------------------------------------------------
